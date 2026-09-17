@@ -1,0 +1,9 @@
+# Render Blueprint for the marketing site demo. No database, no build
+# step — plain HTML/CSS/JS.
+
+services:
+  - type: web
+    name: fat7y-spoton-media
+    runtime: static
+    buildCommand: "true"
+    staticPublishPath: ./
